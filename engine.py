@@ -68,7 +68,7 @@ def checkword(string, word):
 		return False
 
 def searchanagrams(dictionary, string, strict = 0):
-	"""`Returns a list of all words that can be formed from a word
+	"""	Returns a list of all words that can be formed from a word
 	from a given dictionary.
 
 	Only returns anagrams of the same word length if strict = 1.
